@@ -41,7 +41,7 @@
                         </div> --}}
                         <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 transform hover:-translate-y-2 hover:shadow-xl">
                             <h4 class="text-xl font-semibold text-gray-800">Pendirian Rumah Sakit</h4>
-                            <p class="mt-4 text-gray-600">Rumah sakit kami didirikan pada tahun 1980 dengan tujuan memberikan pelayanan kesehatan terbaik kepada masyarakat.</p>
+                            <p class="mt-4 text-gray-600">Rumah sakit kami didirikan pada tahun 2020 dengan tujuan memberikan pelayanan kesehatan terbaik kepada masyarakat.</p>
                         </div>
                     </div>
     
@@ -52,7 +52,7 @@
                         </div> --}}
                         <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 transform hover:-translate-y-2 hover:shadow-xl">
                             <h4 class="text-xl font-semibold text-gray-800">Ekspansi Departemen</h4>
-                            <p class="mt-4 text-gray-600">Pada tahun 1995, kami menambahkan departemen spesialisasi baru seperti kardiologi, bedah, dan pediatri untuk memenuhi kebutuhan masyarakat.</p>
+                            <p class="mt-4 text-gray-600">Pada tahun 2022, kami menambahkan departemen spesialisasi baru seperti kardiologi, bedah, dan pediatri untuk memenuhi kebutuhan masyarakat.</p>
                         </div>
                     </div>
     
@@ -63,7 +63,7 @@
                         </div> --}}
                         <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 transform hover:-translate-y-2 hover:shadow-xl">
                             <h4 class="text-xl font-semibold text-gray-800">Penambahan Fasilitas</h4>
-                            <p class="mt-4 text-gray-600">Pada tahun 2010, kami memperluas rumah sakit dengan fasilitas laboratorium modern dan ruang ICU yang lebih lengkap.</p>
+                            <p class="mt-4 text-gray-600">Pada tahun 2022, kami memperluas rumah sakit dengan fasilitas laboratorium modern dan ruang ICU yang lebih lengkap.</p>
                         </div>
                     </div>
     
@@ -93,7 +93,7 @@
             <!-- Title Section -->
             {{-- <div class="text-center mb-16">
                 <h2 class="text-5xl font-extrabold text-gray-800">Sejarah Rumah Sakit Kami</h2>
-                <p class="mt-4 text-lg text-gray-600">Mengabdi sejak tahun 1980 dengan komitmen memberikan pelayanan terbaik bagi masyarakat.</p>
+                <p class="mt-4 text-lg text-gray-600">Mengabdi sejak tahun 2020 dengan komitmen memberikan pelayanan terbaik bagi masyarakat.</p>
             </div> --}}
     
             <!-- Timeline Section -->
@@ -105,29 +105,29 @@
                         <img src="{{ asset('img/doctors/doctors-1.jpg') }}" alt="Doctor 1" class="rounded-full w-32 h-32 object-cover mb-4">
                     </div>
                     <div class="w-full md:w-2/3">
-                        <h3 class="text-2xl font-bold text-gray-800">Pendirian Rumah Sakit (1980)</h3>
-                        <p class="mt-4 text-gray-600">Rumah sakit kami didirikan pada tahun 1980 dengan visi memberikan pelayanan kesehatan terbaik bagi seluruh lapisan masyarakat. Saat itu, rumah sakit hanya memiliki dua departemen utama: umum dan gawat darurat.</p>
+                        <h3 class="text-2xl font-bold text-gray-800">Pendirian Rumah Sakit (2020)</h3>
+                        <p class="mt-4 text-gray-600">Rumah sakit kami didirikan pada tahun 2020 dengan visi memberikan pelayanan kesehatan terbaik bagi seluruh lapisan masyarakat. Saat itu, rumah sakit hanya memiliki dua departemen utama: umum dan gawat darurat.</p>
                     </div>
                 </div>
     
                 <!-- Timeline Item 2 -->
                 <div class="flex flex-col md:flex-row-reverse items-start md:items-center gap-8">
                     <div class="w-full md:w-1/3">
-                        <img src="{{ asset('img/sejarah-2.jpg') }}" alt="Ekspansi Departemen" class="rounded-lg shadow-lg">
+                        <img src="https://unair.ac.id/wp-content/uploads/2025/01/GettyImages-503764724.webp" alt="Ekspansi Departemen" class="rounded-lg shadow-lg w-full h-60 object-cover">
                     </div>
                     <div class="w-full md:w-2/3">
-                        <h3 class="text-2xl font-bold text-gray-800">Ekspansi Departemen (1995)</h3>
-                        <p class="mt-4 text-gray-600">Pada tahun 1995, kami menambahkan beberapa departemen spesialis seperti kardiologi, ortopedi, dan pediatri. Ekspansi ini dilakukan untuk memenuhi kebutuhan masyarakat akan layanan kesehatan yang lebih spesifik.</p>
+                        <h3 class="text-2xl font-bold text-gray-800">Ekspansi Departemen (2022)</h3>
+                        <p class="mt-4 text-gray-600">Pada tahun 2022, kami menambahkan beberapa departemen spesialis seperti kardiologi, ortopedi, dan pediatri. Ekspansi ini dilakukan untuk memenuhi kebutuhan masyarakat akan layanan kesehatan yang lebih spesifik.</p>
                     </div>
                 </div>
     
                 <!-- Timeline Item 3 -->
                 <div class="flex flex-col md:flex-row items-start md:items-center gap-8">
                     <div class="w-full md:w-1/3">
-                        <img src="{{ asset('img/sejarah-3.jpg') }}" alt="Penambahan Fasilitas" class="rounded-lg shadow-lg">
+                        <img src="https://www.legalnow.co.id/wp-content/uploads/2023/11/izin-pendirian-rumah-sakit.jpg" alt="Penambahan Fasilitas" class="rounded-lg shadow-lg w-full h-60 object-cover">
                     </div>
                     <div class="w-full md:w-2/3">
-                        <h3 class="text-2xl font-bold text-gray-800">Penambahan Fasilitas Modern (2010)</h3>
+                        <h3 class="text-2xl font-bold text-gray-800">Penambahan Fasilitas Modern (2022)</h3>
                         <p class="mt-4 text-gray-600">Seiring perkembangan teknologi, rumah sakit kami menambahkan fasilitas modern seperti laboratorium diagnostik canggih, ruang radiologi, dan peralatan medis terkini untuk meningkatkan kualitas pelayanan.</p>
                     </div>
                 </div>
@@ -135,11 +135,11 @@
                 <!-- Timeline Item 4 -->
                 <div class="flex flex-col md:flex-row-reverse items-start md:items-center gap-8">
                     <div class="w-full md:w-1/3">
-                        <img src="{{ asset('img/sejarah-4.jpg') }}" alt="Penghargaan & Akreditasi" class="rounded-lg shadow-lg">
+                        <img src="https://sehatnegeriku.kemkes.go.id/wp-content/uploads/2024/04/IMG-20240409-WA0011.jpg" alt="Penghargaan & Akreditasi" class="rounded-lg shadow-lg">
                     </div>
                     <div class="w-full md:w-2/3">
-                        <h3 class="text-2xl font-bold text-gray-800">Penghargaan & Akreditasi (2015)</h3>
-                        <p class="mt-4 text-gray-600">Pada tahun 2015, rumah sakit kami mendapatkan akreditasi nasional serta berbagai penghargaan atas kualitas pelayanan dan inovasi di bidang kesehatan. Ini menjadi bukti nyata komitmen kami terhadap pelayanan terbaik.</p>
+                        <h3 class="text-2xl font-bold text-gray-800">Penghargaan & Akreditasi (2023)</h3>
+                        <p class="mt-4 text-gray-600">Pada tahun 2023, rumah sakit kami mendapatkan akreditasi nasional serta berbagai penghargaan atas kualitas pelayanan dan inovasi di bidang kesehatan. Ini menjadi bukti nyata komitmen kami terhadap pelayanan terbaik.</p>
                     </div>
                 </div>
             </div>
@@ -154,9 +154,13 @@
     </section>
 
             <!-- Footer -->
-            <footer class="bg-gray-900 py-8 text-center text-white">
-                <p>© 2025 RS Sejahtera. All Rights Reserved.</p>
-            </footer>
+        <!-- Footer -->
+        <footer id="kontak" class="bg-gray-800 text-white py-6">
+            <div class="container mx-auto text-center">
+                <p class="mb-4">Hubungi Kami: info@kesehatan.com | +62 812 3456 7890</p>
+                <p>&copy; 2025 RS Sejahtera. All Rights Reserved.</p>
+            </div>
+        </footer>
     
 </body>
 

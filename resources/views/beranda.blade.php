@@ -37,13 +37,70 @@
 <body class="h-full">
     <div class="min-h-full">
         <x-navbar></x-navbar> <!-- Mengambil Navbar  (navbar.blade.php)-->
-        <x-header>Selamat datang di R.S Sejahtera</x-header> <!-- Mengambil Header  (header.blade.php)-->
+        {{-- <x-header>Selamat datang di R.S Sejahtera</x-header> <!-- Mengambil Header  (header.blade.php)--> --}}
+
+
+
+        <section id="hero" class="relative bg-gray-100 pb-20 mb-15 pt-15">
+            <img src="{{ asset('img/hero-bg.jpg') }}" alt="" class="absolute inset-0 w-full h-full object-cover opacity-75">
+        
+            <div class="container mx-auto relative z-10 text-gray-800">
+                <!-- Welcome Section -->
+                <div class="py-20 max-w-xl text-left mt-8 mb-0">
+                    <h2 class="text-4xl font-bold text-gray-800">SELAMAT DATANG DI R.S SEJAHTERA</h2>
+                    <p class="text-lg mt-4">
+                        Kita adalah tim, yang termotivasi dari 2 kata "Pemuda Sejahtera".
+                    </p>
+                </div>
+                
+                <!-- Content Section -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Why Choose Medilab -->
+                    <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl" data-aos="zoom-out" data-aos-delay="200">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-600 hover:underline">Kenapa harus memilih R.S Sejahtera?</h3>
+                        <p class="text-gray-700">
+                            Rawat Inap Asyik, Serasa Staycation, kamar nyaman seperti hotel, pelayanan hangat seperti rumah. Dokternya Ramah, Suster Nggak Galak! Dijamin, kami semua di sini cuma bikin Anda sehat, bukan deg-degan.
+                        </p>
+                        <div class="text-center mt-6">
+                            <a href="/tentang"
+                               class="inline-block px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+                                Selengkapnya →
+                                <i class="bi bi-chevron-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <!-- Icon Boxes -->
+                    <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6 mt-5 mb-5">
+                        <!-- Box 1 -->
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl" data-aos="zoom-out" data-aos-delay="300">
+                            <i class="bi bi-clipboard-data text-blue-600 text-3xl mb-4"></i>
+                            <h4 class="text-xl font-semibold mb-2 hover:underline">Pelayanan Medis Modern dengan Sentuhan Sutra.</h4>
+                            <p class="text-gray-600 pt-5">Kami menggunakan teknologi terkini yang dipadukan dengan pelayanan penuh perhatian untuk memastikan kenyamanan pasien.</p>
+                        </div>
+                        <!-- Box 2 -->
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl" data-aos="zoom-out" data-aos-delay="400">
+                            <i class="bi bi-gem text-blue-600 text-3xl mb-4"></i>
+                            <h4 class="text-xl font-semibold mb-2 hover:underline">Kami Hadir untuk Membantu Anda Pulih Lebih Cepat!.</h4>
+                            <p class="text-gray-600 pt-5">Dengan tim medis profesional dan program rehabilitasi yang terarah, kami mendukung pemulihan Anda secara optimal.</p>
+                        </div>
+                        <!-- Box 3 -->
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl" data-aos="zoom-out" data-aos-delay="500">
+                            <i class="bi bi-inboxes text-blue-600 text-3xl mb-4"></i>
+                            <h4 class="text-xl font-semibold mb-2 hover:underline">Kami Peduli, Kami Melayani, Kami Sejahtera.</h4>
+                            <p class="text-gray-600 pt-5">Filosofi pelayanan kami adalah memberikan perawatan berkualitas dengan penuh rasa empati.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
 
 
 
         <!-- Container Swiper -->
         <main>
-            <div class="swiper-container w-full h-full">
+            <div class="swiper-container w-full h-full mt-20 pt-20">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide flex items-center justify-center px-40 bg-blue-500">
@@ -347,11 +404,13 @@
 
         </div>
     </div>
-</body>
 
+    
 <footer class="bg-gray-900 py-8 text-center text-white mt-10">
     <p>© 2025 RS Sejahtera. All Rights Reserved.</p>
 </footer>
+</body>
+
 
 
 </html>

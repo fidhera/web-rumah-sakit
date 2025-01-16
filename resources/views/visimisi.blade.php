@@ -32,8 +32,8 @@
         </header>
 
         <!-- Visi Section -->
-        <section id="visi" class="py-20 bg-gray-50">
-            <div class="container mx-auto px-6 text-center">
+        <section id="visi" class="py-20 bg-gray-50 pt-20">
+            <div class="container mx-auto px-6 text-center mt-20">
                 <h2 class="text-4xl font-bold text-gray-800 mb-6">Visi</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">Menjadi rumah sakit pilihan utama masyarakat dengan pelayanan kesehatan yang unggul, terjangkau, dan terpercaya.</p>
                 <div class="mt-12 flex justify-center">
@@ -91,13 +91,17 @@
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-4xl font-bold mb-6">Kontak Kami</h2>
                 <p class="text-lg mb-6">Hubungi kami untuk informasi lebih lanjut mengenai layanan rumah sakit.</p>
-                <a href="mailto:info@rssejahtera.com" class="px-6 py-3 bg-white text-blue-700 rounded-full shadow-lg hover:bg-blue-600 hover:text-white transition-all duration-300">Email Kami</a>
+                <a href="/kontak" class="px-6 py-3 bg-white text-blue-700 rounded-full shadow-lg hover:bg-blue-600 hover:text-white transition-all duration-300">Email Kami</a>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="bg-gray-900 py-8 text-center text-white">
-            <p>© 2025 RS Sejahtera. All Rights Reserved.</p>
+        <!-- Footer -->
+        <footer id="kontak" class="bg-gray-800 text-white py-6">
+            <div class="container mx-auto text-center">
+                <p class="mb-4">Hubungi Kami: info@kesehatan.com | +62 812 3456 7890</p>
+                <p>&copy; 2025 RS Sejahtera. All Rights Reserved.</p>
+            </div>
         </footer>
     </div>
 </body>
